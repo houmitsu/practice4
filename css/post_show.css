@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #4B2D1C;
+}
+
+body{
+	background:#fcfcfc;
+}
+h1{
+	color: #4B2D1C;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 8px;
+	padding-top:50px;
+	font-size: 2.5rem;
+}
+main{
+	padding: 80px 0px;
+}
+
+h2{
+	color: #4B2D1C;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 8px;
+	padding-top:55px;
+	font-size: 1.6rem;
+}
+
+img {
+	width:35vw;
+	border-radius: 30px;
+}
+.post_show_img{
+	text-align: center;
+}
+
+form{
+	text-align:center;
+}
+.title{
+	width: 35%;
+    margin: auto;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding:20px 0px;
+}
+.text{
+	width: 35%;
+    margin: auto;
+}
+.text_area{
+	padding:20px 0px;
+}
+.textarea {
+    height: 10em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 30%;
+}
+.textarea:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+.user_detail{
+	display:flex;
+	width: 35%;
+    margin: auto;
+    justify-content: space-between;
+     padding: 20px 0px;
+}
+.a{
+	display:flex;
+	width: 10%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+hr{
+	width:40%;
+	 margin: auto;
+}
+.stuff {
+	text-align:center;
+	margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  background: #E8E8E8;
+  color: #4B2D1C;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 0px #E8E8E8;
+  border: dashed 1px #4B2D1C;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.btn{
+	justify-content: space-between;
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 20px 0px;
+}
+font{
+	color:red;
+}
+
+.err_text{
+	padding:30px 0px;
+}
+.comment{
+	margin: auto;
+    width: 30%;
+    background:#e8e8e8;
+    margin-top: 25px;
+}
+.comment_userditail{
+	display:flex;
+	justify-content: space-between;
+	padding: 20px 10px 10px 10px;
+}
+.comment_hr{
+	width:100%;
+}
+.comment_text{
+	padding: 20px 10px 20px 10px;
+}

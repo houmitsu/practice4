@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #4B2D1C;
+}
+
+body{
+	background:#fcfcfc;
+}
+h1{
+	color: #4B2D1C;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 8px;
+	padding-top:70px;
+	font-size: 2.5rem;
+}
+.stuff{
+	text-align:center;
+}
+.textBox {
+  position: relative;
+  width: 100%;  padding-top: 10px;
+  display: inline-flex;
+  margin-bottom: 3vh;
+  justify-content: space-between;
+  padding:0% 35%;
+}
+.lavel{
+	color: #4B2D1C;
+}
+
+.text {
+    height: 2.4em;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+.touroku{
+	text-align:center;
+	padding: 30px 0px;
+}
+h2{
+	text-align:center;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	padding: 20px 0px;
+	font-size: 1.6rem;
+}
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #ffa500;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px #ffa500;
+  border: dashed 1px #FFF;
+  letter-spacing: 3px;
+  font-weight: bold;
+  width:10%;
+}
+
+.button:hover {
+  border: dotted 1px #FFF;
+}
+p{
+	text-align:center;
+	letter-spacing: 2px;
+	line-height: 1.5rem;
+	padding-bottom: 70px;
+}
+/*
+.btn{
+	text-decoration: none;
+	padding-bottom: 0.3px;
+	border-bottom: 2px solid #4B2D1C;
+}
+*/
+font{
+	color:red;
+}
+.err_text{
+	padding:30px 0px;
+}
